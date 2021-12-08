@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
     image: php:7.3-apache
     volumes:
-      - ./php/src:/var/www/html
+      - ./php/htdocs:/var/www/html
     ports:
       - 80:80
   

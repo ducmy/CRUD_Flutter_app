@@ -1,0 +1,1 @@
+CREATE TABLE `database`.`student` ( `id` INT NOT NULL AUTO_INCREMENT COMMENT 'Khóa chính' , `name` INT NOT NULL COMMENT 'Tên' , `age` INT NOT NULL COMMENT 'Tuổi' , PRIMARY KEY (`id`)) ENGINE = InnoDB;
