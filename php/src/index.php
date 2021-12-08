@@ -10,6 +10,10 @@ $user = 'MYSQL_USER';
 //database user password
 $pass = 'MYSQL_PASSWORD';
 
+$mydatabase = 'MY_DATABASE';
+
+$conn = new mysqli($host, $user, $pass, $mydatabase);
+
 // check the MySQL connection status
 $conn = new mysqli($host, $user, $pass);
 if ($conn->connect_error) {
@@ -17,3 +21,4 @@ if ($conn->connect_error) {
 } else {
     echo "Connected to MySQL server successfully!";
 }
+
