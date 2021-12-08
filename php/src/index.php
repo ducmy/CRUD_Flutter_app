@@ -5,12 +5,12 @@
 $host = 'db';
 
 // Database use name
-$user = 'MYSQL_USER';
+$user = 'root';
 
 //database user password
-$pass = 'MYSQL_PASSWORD';
+$pass = 'root';
 
-$mydatabase = 'MY_DATABASE';
+$mydatabase = 'database';
 
 $conn = new mysqli($host, $user, $pass, $mydatabase);
 
